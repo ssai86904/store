@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Next.js build output
+.next/
+out/
+
+# Environment files: never commit secrets. Commit the .env.example files instead.
+.env
+.env.*
+!.env.example
+
+# Laravel
+backend/storage/*.key
+backend/database/*.sqlite
+backend/public/storage
+backend/public/hot
+
+# Logs, OS and editor files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
